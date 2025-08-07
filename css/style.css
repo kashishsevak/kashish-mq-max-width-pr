@@ -1,0 +1,176 @@
+:root {
+  --theme-white: #fff;
+  --theme-orange: #cc9900;
+  --theme-dark-orange:#906E09;
+  --theme-blue: #014c8c;
+  --theme-text-color:#8c8c8c;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  max-width: 1320px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  color: inherit;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-12 {
+  width: 100%;
+  padding: 0 15px;
+}
+
+.col-6 {
+  width: 50%;
+  padding: 0 15px;
+}
+
+.col-4 {
+  width: 33.33%;
+  padding: 0 15px;
+}
+
+.col-3 {
+  width: 25%;
+  padding: 0 15px;
+}
+
+/* header section start  */
+header {
+  padding: 2rem 0;
+}
+
+header .topbar .logo {
+  font-size: 42px;
+  font-weight: 400;
+  color: var(--theme-orange);
+  transition: all 0.3s ease;
+}
+
+header .topbar .logo:hover {
+  color: var(--theme-blue);
+}
+
+header nav ul li a {
+  font-size: 21px;
+  font-weight: 300;
+  padding: 15px 35px;
+  margin-right: 20px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+header nav ul li .active {
+  color: var(--theme-white);
+  background-color: var(--theme-orange);
+}
+
+header nav ul li a:hover {
+  color: var(--theme-white);
+  background-color: var(--theme-orange);
+}
+/* header section end  */
+
+/* hero section start  */
+.hero {
+  height: 500px;
+  background-image: url(../images/hero-bg-img.jpg);
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/* hero section end  */
+
+/* intro section start  */
+.intro{
+    padding: 50px 0;
+}
+.intro .intro-content{
+    text-align: center;
+    padding: 80px 0;
+}
+.intro .intro-content h2{
+    font-size: 36px;
+    font-weight: 500;
+    color: var(--theme-orange);
+    margin-bottom: 1rem;
+}
+.intro .intro-content p{
+    font-size: 22px;
+    font-weight: 300;
+    color: var(--theme-text-color);
+    line-height: 40px;
+}
+.intro .intro-cards .card img{
+    margin-bottom: 20px;
+}
+.intro .intro-cards .card h4{
+    font-size: 22px;
+    font-weight: 300;
+    color: var(--theme-orange);
+    margin-bottom: 20px;
+}
+.intro .intro-cards .card p{
+    font-size: 18px;
+    font-weight: 300;
+    color: var(--theme-text-color);
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.intro .intro-cards .card a{
+    font-size: 21px;
+    font-weight: 300;
+    color: var(--theme-white);
+    background-color: var(--theme-orange);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 30px;
+    transition: all 0.3s ease;
+}
+.intro .intro-cards .card a:hover{
+    background-color: var(--theme-dark-orange);
+}
+/* intro section end  */
