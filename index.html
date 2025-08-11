@@ -58,7 +58,7 @@
         </div>
         <div class="intro-cards">
           <div class="row">
-            <div class="col-3 col-md-6">
+            <div class="col-3 col-sm-12 col-md-6">
               <div class="card">
                 <img src="./images/intro-img-1.jpg" alt="intro-img-1" class="mb-20" />
                 <h4 class="mb-20">Lorem ipsum dolor #1</h4>
@@ -69,7 +69,7 @@
                 <a href="javascript:void(0)">Detail</a>
               </div>
             </div>
-            <div class="col-3 col-md-6">
+            <div class="col-3 col-sm-12 col-md-6">
               <div class="card">
                 <img src="./images/intro-img-2.jpg" alt="intro-img-2" class="mb-20" />
                 <h4 class="mb-20">Lorem ipsum dolor #2</h4>
@@ -80,7 +80,7 @@
                 <a href="javascript:void(0)">Read More</a>
               </div>
             </div>
-            <div class="col-3 col-md-6">
+            <div class="col-3 col-sm-12 col-md-6">
               <div class="card">
                 <img src="./images/intro-img-3.jpg" alt="intro-img-3" class="mb-20" />
                 <h4 class="mb-20">Lorem ipsum dolor #3</h4>
@@ -91,7 +91,7 @@
                 <a href="javascript:void(0)">Detail</a>
               </div>
             </div>
-            <div class="col-3 col-md-6">
+            <div class="col-3 col-sm-12 col-md-6">
               <div class="card">
                 <img src="./images/intro-img-4.jpg" alt="intro-img-4" class="mb-20" />
                 <h4 class="mb-20">Lorem ipsum dolor #4</h4>
@@ -113,32 +113,36 @@
       <div class="container">
         <div class="categories-content">
           <div class="row">
-            <div class="col-6">
+            <div class="col-6 col-md-12 col-lg-12">
               <h2>Pellentesque fermentum mauris et posuere</h2>
               <p>Vivamus accumsan blandit ligula. Sed lobortis efficitur sapien</p>
               <img src="./images/category-img-1.jpg" alt="category-img-1">
             </div>
-            <div class="col-6">
+            <div class="col-6 col-md-12 col-lg-12">
               <div class="row">
-                <div class="col-6">
+                <div class="col-6 col-sm-12">
                   <div class="useful-link">
                     <h2>Categories</h2>
-                    <a href="javascript:void((0))">Tincidunt non faucibus placerat</a>
-                    <a href="javascript:void((0))">Vestibulum tempor ac lectus</a>
-                    <a href="javascript:void((0))">Fusce non turpis euismod</a>
-                    <a href="javascript:void((0))">Nam in augue consectetur</a>
-                    <a href="javascript:void((0))">Text Link Color #006699</a>
+                    <ul>
+                      <li><a href="javascript:void((0))">Tincidunt non faucibus placerat</a></li>
+                      <li><a href="javascript:void((0))">Vestibulum tempor ac lectus</a></li>
+                      <li><a href="javascript:void((0))">Fusce non turpis euismod</a></li>
+                      <li><a href="javascript:void((0))">Nam in augue consectetur</a></li>
+                      <li><a href="javascript:void((0))">Text Link Color #006699</a></li>
+                    </ul>
                     <button class="btn">Read More</button>
                   </div>
                 </div>
-                <div class="col-6">
+                <div class="col-6 col-sm-12">
                   <div class="useful-link">
                     <h2>Useful Links</h2>
-                    <a href="javascript:void((0))">Suspendisse sed dui nulla</a>
-                    <a href="javascript:void((0))">Lorem ipsum dolor sit</a>
-                    <a href="javascript:void((0))">Duiss nec purus et eros</a>
-                    <a href="javascript:void((0))">Etiam pulvinar et ligula sed</a>
-                    <a href="javascript:void((0))">Proin egestas eu felis et iaculis</a>
+                    <ul>
+                      <li><a href="javascript:void((0))">Suspendisse sed dui nulla</a></li>
+                      <li><a href="javascript:void((0))">Lorem ipsum dolor sit</a></li>
+                      <li><a href="javascript:void((0))">Duiss nec purus et eros</a></li>
+                      <li><a href="javascript:void((0))">Etiam pulvinar et ligula sed</a></li>
+                      <li><a href="javascript:void((0))">Proin egestas eu felis et iaculis</a></li>
+                    </ul>
                     <button class="btn">Read More</button>
                   </div>
                 </div>
@@ -146,7 +150,7 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-6">
+            <div class="col-6 col-md-12 col-lg-12">
               <div class="related-post m-tb-20">
                 <h2>Relsted Post</h2>
                 <p>Donec tempor lobortis tortor, in feugiat massa facilisis sed. Ut dignissim viverra pretium. In eu
@@ -158,30 +162,48 @@
                 <button class="btn">Read More</button>
               </div>
             </div>
-            <div class="col-6">
+            <div class="col-6 col-md-12 col-lg-12">
               <div class="media m-tb-60">
-                <div class="posts m-tb-20 d-flex">
-                  <img src="./images/post-1.jpg" alt="post-1" class="mr-20">
-                  <div class="post-detail">
-                    <h3>Lorem ipsum dolor</h3>
-                    <p>Aenean cursus tellus mauris, quis consequat mauris dapibus id. Donec scelerisque porttitor
-                      pharetra.</p>
+                <div class="row">
+                  <div class="posts m-tb-20 d-xs-block d-flex">
+                    <div class="col-6 col-xs-12">
+                      <img src="./images/post-1.jpg" alt="post-1" class="mr-20">
+                    </div>
+                    <div class="col-6 col-xs-12">
+                      <div class="post-detail">
+                        <h3>Lorem ipsum dolor</h3>
+                        <p>Aenean cursus tellus mauris, quis consequat mauris dapibus id. Donec scelerisque porttitor
+                          pharetra.</p>
+                      </div>
+                    </div>
                   </div>
                 </div>
-                <div class="posts m-tb-20 d-flex">
-                  <img src="./images/post-2.jpg" alt="post-2" class="mr-20">
-                  <div class="post-detail">
-                    <h3>Lorem ipsum dolor</h3>
-                    <p>Aenean cursus tellus mauris, quis consequat mauris dapibus id. Donec scelerisque porttitor
-                      pharetra.</p>
+                <div class="row">
+                  <div class="posts m-tb-20 d-xs-block d-flex">
+                    <div class="col-6 col-xs-12">
+                      <img src="./images/post-2.jpg" alt="post-2" class="mr-20">
+                    </div>
+                    <div class="col-6 col-xs-12">
+                      <div class="post-detail">
+                        <h3>Lorem ipsum dolor</h3>
+                        <p>Aenean cursus tellus mauris, quis consequat mauris dapibus id. Donec scelerisque porttitor
+                          pharetra.</p>
+                      </div>
+                    </div>
                   </div>
                 </div>
-                <div class="posts m-tb-20 d-flex">
-                  <img src="./images/post-3.jpg" alt="post-3" class="mr-20">
-                  <div class="post-detail">
-                    <h3>Lorem ipsum dolor</h3>
-                    <p>Aenean cursus tellus mauris, quis consequat mauris dapibus id. Donec scelerisque porttitor
-                      pharetra.</p>
+                <div class="row">
+                  <div class="posts m-tb-20 d-xs-block d-flex">
+                    <div class="col-6 col-xs-12">
+                      <img src="./images/post-3.jpg" alt="post-3" class="mr-20">
+                    </div>
+                    <div class="col-6 col-xs-12">
+                      <div class="post-detail">
+                        <h3>Lorem ipsum dolor</h3>
+                        <p>Aenean cursus tellus mauris, quis consequat mauris dapibus id. Donec scelerisque porttitor
+                          pharetra.</p>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -198,7 +220,7 @@
     <div class="container">
       <div class="footer-content">
         <div class="row">
-          <div class="col-3">
+          <div class="col-3 col-sm-12 col-md-6">
             <div class="card">
               <h1>Proin eu posuere felis</h1>
               <div class="gray-bg">
@@ -209,7 +231,7 @@
               </div>
             </div>
           </div>
-          <div class="col-3">
+          <div class="col-3 col-sm-12 col-md-6">
             <div class="card">
               <h1>Nulla tortor dolor</h1>
               <div class="useful-link">
@@ -226,7 +248,7 @@
               </div>
             </div>
           </div>
-          <div class="col-3">
+          <div class="col-3 col-sm-12 col-md-6">
             <div class="card">
               <h1>Etiam mollis ornare</h1>
               <div class="">
@@ -242,7 +264,7 @@
               </div>
             </div>
           </div>
-          <div class="col-3">
+          <div class="col-3 col-sm-12 col-md-6">
             <div class="card">
               <h1>Fusce non turpis</h1>
               <div class="footer-img">
